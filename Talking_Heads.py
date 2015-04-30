@@ -1,9 +1,9 @@
 bl_info = {
-	"name": "Talking Head",
+	"name": "Talking Heads",
 	"author": "Karolina Jolanta Rybarczyk",
 	"version": (0, 1),
 	"blender": (2, 74, 0),
-	"location": "Tool bar > Animation tab > Talking Head",
+	"location": "Tool bar > Animation tab > Talking Heads",
 	"description": "Tool for automatic lip-sync"
 	"category": "Animation",
 }
@@ -39,9 +39,9 @@ shapekeys_list.remove('ure')
 
 ##############################Panel##############################
 
-class Talking_Head_Panel(bpy.types.Panel):
+class Talking_Heads_Panel(bpy.types.Panel):
 
-	bl_label = 'Talking Head'
+	bl_label = 'Talking Heads'
 	bl_space_type = 'VIEW_3D'
 	bl_region_type = 'TOOLS'
 	bl_category = "Animation"
