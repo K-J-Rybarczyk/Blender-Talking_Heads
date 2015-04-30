@@ -17,20 +17,20 @@ But now, go on to important things.
 
 Here you see a panel of my addon. You can find it in Tool Bar in Animation tab. Now, what is what...
 
-Addres of dictionary file -> This addon work with dictionary file (file like this you can find in repository too, now only with 3082 most common words but in the future it will be bigger). In this field you write, where is dictionary file, for example: "C:\MyFiles\MyBlenderWork\Animation\dictionary".
+**Addres of dictionary file** - This addon work with dictionary file (file like this you can find in repository too, now only with 3082 most common words but in the future it will be bigger). In this field you write, where is dictionary file, for example: "C:\MyFiles\MyBlenderWork\Animation\dictionary".
 
-Apply dictionary -> You must press this to remake file to dictionary working in Blender.
+**Apply dictionary** - You must press this to remake file to dictionary working in Blender.
 
-Add Phoneme Armature -> First true Blender option. Adding special armature that my plugin use to animate.
+**Add Phoneme Armature** - First true Blender option. Adding special armature that my plugin use to animate.
 
-Add Phoneme Shapekeys -> Adding empty phoneme shape keys that my plugin use, to selected mesh.
+**Add Phoneme Shapekeys** - Adding empty phoneme shape keys that my plugin use, to selected mesh.
 
-Armature to link name -> If you want (of course you want) to link armature to mesh, here you write name of armature for a model.
+**Armature to link name** - If you want (of course you want) to link armature to mesh, here you write name of armature for a model.
 
-Link Shape Keys to Armature -> First, select your mesh with phoneme shape keys that you want link with armature in "Armature to link name", then just press this button. Voilà! If you do everything alright then now you should have beauty drivers on all phoneme shape keys. Nice. Now your model is ready to animate!
+**Link Shape Keys to Armature** - First, select your mesh with phoneme shape keys that you want link with armature in "Armature to link name", then just press this button. Voilà! If you do everything alright then now you should have beauty drivers on all phoneme shape keys. Nice. Now your model is ready to animate!
 
-Text to animation -> I think this is self explanatory. This is what your model will talking.
+**Text to animation** - I think this is self explanatory. This is what your model will talking.
 
-Animation starting frame -> Again, easy like you see. After makeing animation value will be the same like the end of animation - you don't want to overwrite your animation by accident.
+**Animation starting frame** - Again, easy like you see. After makeing animation value will be the same like the end of animation - you don't want to overwrite your animation by accident.
 
-Apply animation -> Magic button, that create animation from your text.
+**Apply animation** - Magic button, that create animation from your text.
