@@ -11,4 +11,4 @@ But now, go on to important things.
 
 ###How work with this?
 
-![panel.png](https://github.com/K-J-Rybarczyk/Blender-Talking_Heads/tree/master/Screens/panel.png "Panel")
+![panel.png](https://raw.githubusercontent.com/K-J-Rybarczyk/Blender-Talking_Heads/master/Screens/panel.png "Panel")
