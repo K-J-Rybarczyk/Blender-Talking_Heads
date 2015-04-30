@@ -4,7 +4,7 @@ bl_info = {
 	"version": (0, 1),
 	"blender": (2, 74, 0),
 	"location": "Tool bar > Animation tab > Talking Heads",
-	"description": "Tool for automatic lip-sync"
+	"description": "Tool for automatic lip-sync",
 	"category": "Animation",
 }
 
