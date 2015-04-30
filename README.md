@@ -34,3 +34,12 @@ Here you see a panel of my addon. You can find it in Tool Bar in Animation tab. 
 **Animation starting frame** - Again, easy like you see. After makeing animation value will be the same like the end of animation - you don't want to overwrite your animation by accident.
 
 **Apply animation** - Magic button, that create animation from your text.
+
+
+
+###Any warnings?
+
+Unfortunately: yes. First of all - how I said earlier, this addon must have a special dictionary. Without this, nothing will work. What if you want to use words that are not in dictionary? I predicted such a possibility. My animation algorithm will leave empty space in place of such words, so you can easily create animation on your own.
+Second important thing - automatic animation sometimes can be little... Twitchy. Yeah, that a good word. A lot depends on the shape keys appearance. I tried as best to choose the duration of the individual phonemes, but still, this is an automat. I cannot promise too much at the moment.
+
+Currently, this plugin only facilitates the work with lip-sync, doesn't do everything for us. At the end manual fixes are essential.
