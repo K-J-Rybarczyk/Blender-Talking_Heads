@@ -567,7 +567,7 @@ class Phoneme_ShapeKeys(bpy.types.Operator) :
 
 ##############################Link Shape Keys to Armature##############################
 
-class Phoneme_ShapeKeys(bpy.types.Operator) :
+class Link_ShapeKeys(bpy.types.Operator) :
 
 	bl_idname = 'mesh.link'
 	bl_label = 'Link Shape Keys to Armature'
