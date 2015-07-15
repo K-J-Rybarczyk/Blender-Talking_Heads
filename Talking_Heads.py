@@ -46,7 +46,7 @@ class Talking_Heads_Panel(bpy.types.Panel):
 	bl_region_type = 'TOOLS'
 	bl_category = "Animation"
 
-	dictionary_adress = StringProperty(name="Addres of dictionary file")
+	dictionary_address = StringProperty(name="Address of dictionary file")
 	armature_name = StringProperty(name="Armature to link name") 
 	anim_text = StringProperty(name="Text to animation")
 	starting_frame = IntProperty(name="Animation starting frame", default=(1))
@@ -57,7 +57,7 @@ class Talking_Heads_Panel(bpy.types.Panel):
 
 		layout = self.layout
 
-		layout.prop(context.scene, "dictionary_adress")
+		layout.prop(context.scene, "dictionary_address")
 		layout.operator("mesh.dictionary_apply", text = "Apply dictionary")
 		layout.operator("mesh.add_phoneme_armature", text = "Add Phoneme Armature")
 		layout.operator("mesh.add_phoneme_shapekeys", text = "Add Phoneme Shapekeys")
@@ -80,7 +80,7 @@ class Adding_Dictionary(bpy.types.Operator) :
 
 	def execute(self, context):				#creating dictionary from file
 
-		file_addres=context.scene.dictionary_adress
+		file_addres=context.scene.dictionary_address
 		Adding_Dictionary.dictionary={}
 
 		text1 = open(file_addres, 'r')
@@ -830,7 +830,7 @@ class Animation_Apply(bpy.types.Operator) :
 def register() :
 
 
-	bpy.types.Scene.dictionary_adress = bpy.props.StringProperty(name="Addres of dictionary file")
+	bpy.types.Scene.dictionary_address = bpy.props.StringProperty(name="Address of dictionary file")
 	bpy.types.Scene.armature_name = bpy.props.StringProperty(name="Armature to link name") 
 	bpy.types.Scene.anim_text = bpy.props.StringProperty(name="Text to animation")
 	bpy.types.Scene.starting_frame = bpy.props.IntProperty(name="Animation starting frame")
