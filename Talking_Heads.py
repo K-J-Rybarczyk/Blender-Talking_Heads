@@ -601,8 +601,8 @@ class Link_ShapeKeys(bpy.types.Operator) :
 
 				modifier = driver.modifiers[0]
 				modifier.mode = 'POLYNOMIAL'
-				modifier.poly_order = 2
-				modifier.coefficients = (-0.5, 0, 2)
+				modifier.poly_order = 1
+				modifier.coefficients = (-1,2)
 
 #additional drivers
 		
